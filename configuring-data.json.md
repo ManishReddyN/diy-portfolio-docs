@@ -29,46 +29,48 @@ This documentation provides guidelines and examples for filling in the JSON conf
 
 * **name**: Your first name.
 * **intro**: Brief introduction or bio.
-*   **socialLinks:** Array of social link objects. Each social link object has a `name, link, and icon` fields. All are mandatory. All items in `mainLinks` will be displayed on the home page.&#x20;
+* **socialLinks:** Array of social link objects. Each social link object has a `name, link, and icon` fields. All are mandatory. All items in `mainLinks` will be displayed on the home page.&#x20;
 
-    * Replace the links with your own. If you don't have a profile, delete the element.&#x20;
-    * Copy from [Example social links page](example-social-links.md) if you find any usable example. For missing websites, find an icon [here](https://react-icons.github.io/react-icons/) and paste the name (e.g. FaHome) in the icon section.
-    * **Suggestion**: Limit to 5 social links.&#x20;
-    * **Example**:
+> **Important**: Always use the latest version of icons i.e. between Font Awesome 6 icons and Font Awesome 5 icons, use only Font Awesome 6 icons (identified using the **fa6** tag before the name). The older versions will result in an error. Same applies to Hero Icons (use **hi2** icons) and Ion Icons(use **io5** icons).
 
-    ```json
-    "home": {
-      "name": "First Name",
-      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "socialLinks": [
-        {
-          "name": "Github",
-          "link": "https://github.com",
-          "icon": "IoLogoGithub"
-        },
-        {
-          "name": "LinkedIn",
-          "link": "https://www.linkedin.com",
-          "icon": "IoLogoLinkedin"
-        },
-        {
-          "name": "Twitter",
-          "link": "https://twitter.com",
-          "icon": "IoLogoTwitter"
-        },
-        {
-          "name": "Blog",
-          "link": "https://username.com",
-          "icon": "IoReader"
-        },
-        {
-          "name": "Appointment",
-          "link": "https://calendly.com",
-          "icon": "IoCalendar"
-        }
-      ]
+* Replace the links with your own. If you don't have a profile, delete the element.&#x20;
+* Copy from [Example social links page](example-social-links.md) if you find any usable example. For missing websites, find an icon [here](https://react-icons.github.io/react-icons/) and paste the name (e.g. FaHome) in the icon section.
+* **Suggestion**: Limit to 5 social links.&#x20;
+* **Example**:
+
+```json
+"home": {
+  "name": "First Name",
+  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "socialLinks": [
+    {
+      "name": "Github",
+      "link": "https://github.com",
+      "icon": "IoLogoGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com",
+      "icon": "IoLogoLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://twitter.com",
+      "icon": "IoLogoTwitter"
+    },
+    {
+      "name": "Blog",
+      "link": "https://username.com",
+      "icon": "IoReader"
+    },
+    {
+      "name": "Appointment",
+      "link": "https://calendly.com",
+      "icon": "IoCalendar"
     }
-    ```
+  ]
+}
+```
 
 ### Profile Section
 
@@ -228,6 +230,8 @@ Represented as an array of skill objects, each with 2 fields, both mandatory.
 
 The icon name should refer to an icon in the [react-icons](https://react-icons.github.io/react-icons/) library. Search for your suitable icon there and copy the icon name to use it in the icon field.
 
+> **Important**: Always use the latest version of icons i.e. between Font Awesome 6 icons and Font Awesome 5 icons, use only Font Awesome 6 icons (identified using the **fa6** tag before the name). The older versions will result in an error. Same applies to Hero Icons (use **hi2** icons) and Ion Icons(use **io5** icons).
+
 **Example:**
 
 ```json
@@ -262,6 +266,8 @@ List your interests, each with title, description, and icon.
 Represented as an array of interest objects, each with the 3 fields, all mandatory.
 
 The icon name should refer to an icon in the [react-icons](https://react-icons.github.io/react-icons/) library. Search for your suitable icon there and copy the icon name to use it in the icon field.
+
+> **Important**: Always use the latest version of icons i.e. between Font Awesome 6 icons and Font Awesome 5 icons, use only Font Awesome 6 icons (identified using the **fa6** tag before the name). The older versions will result in an error. Same applies to Hero Icons (use **hi2** icons) and Ion Icons(use **io5** icons).
 
 **Example:**
 
